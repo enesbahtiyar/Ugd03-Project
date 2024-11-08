@@ -6,6 +6,11 @@ public static class Settings
     public const float runningSpeed = 6f;
     public const float walkingSpeed = 3f;
 
+    //Obscuring Settings
+    public const float fadeInSeconds = 0.25f;
+    public const float fadeOutSeconds = 0.25f;
+    public const float targetAlpha = 0.55f;
+
 
     //Player Animation Parameters
     public static int xInput;

@@ -30,7 +30,9 @@ public class Player : SingletonMonoBehaviour<Player>
     private ToolEffect toolEffect = ToolEffect.none;
 
     private Rigidbody2D rb;
+#pragma warning disable 414
     private Direction playerDirection;
+#pragma warning restore 414
     private float movementSpeed;
     private bool _playerInputDisabled;
     public bool PlayerInputDisabled { get => _playerInputDisabled; set => _playerInputDisabled = value; }
