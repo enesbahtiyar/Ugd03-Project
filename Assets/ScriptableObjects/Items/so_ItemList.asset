@@ -12,4 +12,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d59edba97d3ae4d98e1cba779884e0, type: 3}
   m_Name: so_ItemList
   m_EditorClassIdentifier: 
-  items: []
+  itemDetails:
+  - itemCode: 10001
+    itemType: 1
+    itemDescription: Pumpkin
+    sprite: {fileID: -674361901, guid: 0717837ff660ed24c95b02161d4e2d18, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 2
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10002
+    itemType: 1
+    itemDescription: Eggplant
+    sprite: {fileID: 692578168, guid: 0717837ff660ed24c95b02161d4e2d18, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 2
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10003
+    itemType: 1
+    itemDescription: Carrot
+    sprite: {fileID: 1521184494, guid: 0717837ff660ed24c95b02161d4e2d18, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 2
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1

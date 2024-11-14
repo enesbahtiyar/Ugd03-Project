@@ -1,0 +1,875 @@
+fileFormatVersion: 2
+guid: d254be0bce451924281c709a2d3ea9ea
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c519aa5303ae40742b7e275ac0f298fb
+      internalID: 1229814218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 307
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f71822f35135fe4f9cd7f05e8b7ced8
+      internalID: 123520507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78cc45a15199a144bd07c1e5123f99c
+      internalID: -1862249693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f072446fd9474f4b8058f696be63dc7
+      internalID: 1958816979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 259
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebc3fa260627354ba64f92588e28763
+      internalID: -1536703173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 259
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fcf13bc76e04f4789b8afc416a3434
+      internalID: 1131068265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 259
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7c8631f8d79814488fce31c3d61944
+      internalID: 309086146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1ea1b85bd1c6a4a87dfc1cb14a1342
+      internalID: -1801084418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 225
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95feafc4f8af80148bd1ea0896bbf087
+      internalID: -1568966885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 225
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051f9e904aa48ee41871b41d526e8950
+      internalID: 1755398852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 225
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdfea59bf774d040bba5b64a7726abd
+      internalID: -865684540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eba7f643853954091e1f4149be2b8e
+      internalID: -392784338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 177
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c75f726e1591a49998604cd5ae4a2f
+      internalID: 982408205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2108bc17c6b8bce4a983b21f74875969
+      internalID: -1208875773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 129
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b681e9a3a0edc544ab347d23568d52ba
+      internalID: 2099641658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 128
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f45fda468a8fc4da1e517e5e851145
+      internalID: -1125061842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 67
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713eb077b6c3ad742b47aa7ea81f7c60
+      internalID: -1435355584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 66
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4db857ee4c57e843ae87e95b35cc648
+      internalID: -1932504467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 65
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2de253859985e84497b4aacf80ba662
+      internalID: 370996444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 65
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8591e2bbfe152af40a8451f779998b3e
+      internalID: -1951808488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_20
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 67
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd06df2a354e5e46bb2bdd4f89f062e
+      internalID: -1973319854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 66
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ce9ca8b67aa9648a326242b7f7f4c7
+      internalID: -180900775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 65
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0734e1b1710c44b4ea9ae1ed8c9be9bd
+      internalID: -546529511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 65
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5684b5de45e5634ebc2f851e9fbc13f
+      internalID: -1909033595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 35
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffcd0325b461104b9e02032a818d3fc
+      internalID: 301319118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 34
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25b4981f7795c64eb6159733cf9f8c8
+      internalID: 243800213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a897967a10a64e87498c534525fe1
+      internalID: -673736035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 33
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac75ee18edff92d4eaa4a67fa1ad88b9
+      internalID: -2041863616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 37
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6894cd83c9491b1438a4a048a25b8ef2
+      internalID: 740291135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 35
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f410663e3574751408c5b85a4f3dcadc
+      internalID: 242257188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 34
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4f90f458aab9f47ad47cdcd3d9744b
+      internalID: -1790689239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 34
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de72e70bc867f464f8f2b7067859b27c
+      internalID: 1540895089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b416cfd4e9f854b87bc62a3fc6f34d
+      internalID: 947732847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Bushes_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50583b32d967864990207f020596dbc
+      internalID: -1821102158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Stardew Valley - Bushes_0: 1229814218
+      PC Computer - Stardew Valley - Bushes_1: 123520507
+      PC Computer - Stardew Valley - Bushes_10: -865684540
+      PC Computer - Stardew Valley - Bushes_11: -392784338
+      PC Computer - Stardew Valley - Bushes_12: 982408205
+      PC Computer - Stardew Valley - Bushes_13: -1208875773
+      PC Computer - Stardew Valley - Bushes_14: 2099641658
+      PC Computer - Stardew Valley - Bushes_15: -1125061842
+      PC Computer - Stardew Valley - Bushes_16: -1435355584
+      PC Computer - Stardew Valley - Bushes_17: -1932504467
+      PC Computer - Stardew Valley - Bushes_18: 370996444
+      PC Computer - Stardew Valley - Bushes_19: -1951808488
+      PC Computer - Stardew Valley - Bushes_2: -1862249693
+      PC Computer - Stardew Valley - Bushes_20: -1973319854
+      PC Computer - Stardew Valley - Bushes_21: -180900775
+      PC Computer - Stardew Valley - Bushes_22: -546529511
+      PC Computer - Stardew Valley - Bushes_23: -1909033595
+      PC Computer - Stardew Valley - Bushes_24: 301319118
+      PC Computer - Stardew Valley - Bushes_25: 243800213
+      PC Computer - Stardew Valley - Bushes_26: -673736035
+      PC Computer - Stardew Valley - Bushes_27: -2041863616
+      PC Computer - Stardew Valley - Bushes_28: 740291135
+      PC Computer - Stardew Valley - Bushes_29: 242257188
+      PC Computer - Stardew Valley - Bushes_3: 1958816979
+      PC Computer - Stardew Valley - Bushes_30: -1790689239
+      PC Computer - Stardew Valley - Bushes_31: 1540895089
+      PC Computer - Stardew Valley - Bushes_32: 947732847
+      PC Computer - Stardew Valley - Bushes_33: -1821102158
+      PC Computer - Stardew Valley - Bushes_4: -1536703173
+      PC Computer - Stardew Valley - Bushes_5: 1131068265
+      PC Computer - Stardew Valley - Bushes_6: 309086146
+      PC Computer - Stardew Valley - Bushes_7: -1801084418
+      PC Computer - Stardew Valley - Bushes_8: -1568966885
+      PC Computer - Stardew Valley - Bushes_9: 1755398852
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
