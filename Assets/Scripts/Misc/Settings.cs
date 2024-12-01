@@ -72,4 +72,16 @@ public static class Settings
         idleLeft = Animator.StringToHash("idleLeft");
         idleRight = Animator.StringToHash("idleRight");
     }
+
+
+    public static int playerStartInventoryCapacity = 13;
+    public static int playerMaximumuInventoryCapacity = 36;
+
+
+    public const string HoeingTool = "Hoe";
+    public const string ChoppingTool = "Axe";
+    public const string BreakingTool = "Pickaxe";
+    public const string ReapingTool = "Scythe";
+    public const string WateringTool = "Watering Can";
+    public const string CollectingTool = "Basket";
 }

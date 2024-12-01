@@ -46,3 +46,36 @@ MonoBehaviour:
     canBeDropped: 1
     canBeEaten: 0
     canBeCarried: 1
+  - itemCode: 10004
+    itemType: 4
+    itemDescription: Level 1 Axe
+    sprite: {fileID: 21300010, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemLongDescription: "Kocaman Balta \xE7ok sert vurur \xE7ok sert k\u0131rar "
+    itemUseGridRadius: 0
+    itemUseRadius: 2
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10005
+    itemType: 5
+    itemDescription: Level 1 Pickaxe
+    sprite: {fileID: 21300094, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemLongDescription: "Pickaxe kafa da k\u0131rar ta\u015F da "
+    itemUseGridRadius: 0
+    itemUseRadius: 2
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10006
+    itemType: 7
+    itemDescription: Basket
+    sprite: {fileID: 21300504, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemLongDescription: "Yerden item toplamak i\xE7in kullanabilirsin"
+    itemUseGridRadius: 0
+    itemUseRadius: 2
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0

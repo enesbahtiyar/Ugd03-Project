@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : SingletonMonoBehaviour<Player>
 {
+    private Camera mainCamera;
+
 
     private float xInput;
     private float yInput;
@@ -42,24 +44,30 @@ public class Player : SingletonMonoBehaviour<Player>
         base.Awake();
 
         rb = GetComponent<Rigidbody2D>();
+
+        mainCamera = Camera.main;
     }
 
     private void Update()
     {
         #region Player Input
-        ResetAnimationTriggers();
 
-        PlayerMovementInput();
+        if(!PlayerInputDisabled)
+        {
+            ResetAnimationTriggers();
 
-        PlayerWalkInput();
+            PlayerMovementInput();
 
-        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying,
-        toolEffect,
-        isUsingToolDown, isUsingToolUp, isUsingToolRight, isUsingToolLeft,
-        isLiftingToolDown, isLiftingToolUp, isLiftingToolRight, isLiftingToolLeft,
-        isSwingingToolDown, isSwingingToolUp, isSwingingToolLeft, isSwingingToolRight,
-        isPickingDown, isPickingUp, isPickingLeft, isPickingRight,
-        false, false, false, false);
+            PlayerWalkInput();
+
+            EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying,
+            toolEffect,
+            isUsingToolDown, isUsingToolUp, isUsingToolRight, isUsingToolLeft,
+            isLiftingToolDown, isLiftingToolUp, isLiftingToolRight, isLiftingToolLeft,
+            isSwingingToolDown, isSwingingToolUp, isSwingingToolLeft, isSwingingToolRight,
+            isPickingDown, isPickingUp, isPickingLeft, isPickingRight,
+            false, false, false, false);
+        }
 
 
         #endregion
@@ -107,6 +115,39 @@ public class Player : SingletonMonoBehaviour<Player>
         }      
     }
 
+    public void DisablePlayerInput()
+    {
+        PlayerInputDisabled = true;
+    }
+    public void EnablePlayerInput()
+    {
+        PlayerInputDisabled = false;
+    }
+
+    public void ResetMovement()
+    {
+        xInput = 0;
+        yInput = 0;
+        isRunning = false;
+        isWalking = false;
+        isIdle = true;
+    }
+
+    public void DisablePlayerInputAndResetMovement()
+    {
+        DisablePlayerInput();
+        ResetMovement();
+
+
+        EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying,
+        toolEffect,
+        isUsingToolDown, isUsingToolUp, isUsingToolRight, isUsingToolLeft,
+        isLiftingToolDown, isLiftingToolUp, isLiftingToolRight, isLiftingToolLeft,
+        isSwingingToolDown, isSwingingToolUp, isSwingingToolLeft, isSwingingToolRight,
+        isPickingDown, isPickingUp, isPickingLeft, isPickingRight,
+        false, false, false, false);
+    }
+
     private void PlayerWalkInput()
     {
         if (Input.GetKey(KeyCode.RightShift) || Input.GetKey(KeyCode.LeftShift))
@@ -144,6 +185,11 @@ public class Player : SingletonMonoBehaviour<Player>
         isPickingLeft = false;
         isPickingRight = false;
         toolEffect = ToolEffect.none;
+    }
+
+    public Vector3 GetPlayerViewPortPosition()
+    {
+        return mainCamera.WorldToViewportPoint(transform.position);
     }
 
 }

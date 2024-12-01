@@ -24,6 +24,13 @@ public class Item : MonoBehaviour
 
     public void Init(int ItemCodeParam)
     {
+        if (itemCode != 0)
+        {
+            itemCode = ItemCodeParam;
 
+            ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails(itemCode);
+
+            spriteRenderer.sprite = itemDetails.sprite;
+        }
     }
 }
