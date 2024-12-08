@@ -1,3 +1,4 @@
+using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 
 public static class Settings
@@ -84,4 +85,8 @@ public static class Settings
     public const string ReapingTool = "Scythe";
     public const string WateringTool = "Watering Can";
     public const string CollectingTool = "Basket";
+
+
+    //Time Sistemi
+    public const float secondsPerGameSecond = 0.016f;
 }

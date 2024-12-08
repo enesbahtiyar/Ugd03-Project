@@ -1,3 +1,81 @@
+//Animation
+public enum AnimationName
+{
+    idleDown,
+    idleUp,
+    idleLeft,
+    idleRight,
+    walkDown,
+    walkUp,
+    walkLeft,
+    walkRight,
+    runDown,
+    runUp,
+    runLeft,
+    runRight,
+    useToolDown,
+    useToolUp,
+    useToolLeft,
+    useToolRight,
+    swingToolDown,
+    swingToolUp,
+    swingToolLeft,
+    swingToolRight,
+    liftToolDown,
+    liftToolUp,
+    liftToolLeft,
+    liftToolRight,
+    holdToolDown,
+    holdToolUp,
+    holdToolLeft,
+    holdToolRight,
+    pickDown,
+    pickUp,
+    pickLeft,
+    pickRight,
+    count
+}
+
+public enum CharacterPartAnimator
+{
+    body,
+    arms,
+    hair,
+    tool,
+    hat,
+    count
+}
+
+public enum PartVariantColor
+{
+    none,
+    count
+}
+
+public enum PartVariantType
+{
+    none,
+    carry,
+    axe,
+    hoe,
+    pickaxe,
+    scythe,
+    wateringCan,
+    count
+}
+
+//Game Time
+public enum Season
+{
+    Spring,
+    Summer,
+    Autumun,
+    Winter,
+    none,
+    count
+}
+
+
 //Tool Effect
 public enum ToolEffect
 { 
